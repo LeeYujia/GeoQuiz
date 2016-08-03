@@ -34,7 +34,7 @@
             android:text="集团简介"
             android:id="@+id/intro"
             android:layout_gravity="center_vertical"
-            android:background="@drawable/IMGP1245" />
+            android:background="@drawable/img1245" />
 
         <Button
             android:layout_width="96dp"
