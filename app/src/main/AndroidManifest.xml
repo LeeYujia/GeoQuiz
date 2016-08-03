@@ -19,6 +19,9 @@
             android:label="@string/app_name"/>
         <activity android:name=".ServiActicity"
             android:label="@string/app_name"/>
+        <activity android:name=".welcomeView"
+            android:theme="@android:style/Theme.NoTitleBar" />
+
     </application>
 
 </manifest>
