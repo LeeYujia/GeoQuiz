@@ -7,5 +7,6 @@ public class IntroActivity extends Activity{
     protected void onCreat(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
         setContentView(R.layout.introduction);
+        //abcde
     }
 }
