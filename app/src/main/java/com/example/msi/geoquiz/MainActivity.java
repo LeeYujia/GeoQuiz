@@ -28,6 +28,7 @@ public class MainActivity extends Activity {
                 Intent introintent = new Intent(MainActivity.this,IntroActivity.class);
                 startActivity(introintent);
 //                MainActivity.this.finish();
+                Log.i("introduction","I can skip to intronduction");
             }
         });
         service.setOnClickListener(new View.OnClickListener() {
