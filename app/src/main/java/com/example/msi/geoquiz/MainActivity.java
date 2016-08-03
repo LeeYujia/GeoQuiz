@@ -1,6 +1,7 @@
 package com.example.msi.geoquiz;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -22,7 +23,8 @@ public class MainActivity extends Activity {
         advant =(Button)findViewById(R.id.advant);
         intro.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
-
+                Intent introintent = new Intent(MainActivity.this,IntroActivity.class);
+                startActivity(introintent);
             }
         });
         service.setOnClickListener(new View.OnClickListener() {
