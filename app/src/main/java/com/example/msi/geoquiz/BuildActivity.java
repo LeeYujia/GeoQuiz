@@ -6,17 +6,20 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class IntroActivity extends Activity{
-    private Button back;
+/**
+ * Created by MSI on 2016/8/3.
+ */
+public class BuildActivity extends Activity{
+    private Button bback;
     protected void onCreat(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.introduction);
-        back =(Button)findViewById(R.id.back);
-        back.setOnClickListener(new View.OnClickListener() {
+        setContentView(R.layout.service);
+        bback =(Button)findViewById(R.id.sback);
+        bback.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
-                Intent mainintent = new Intent(IntroActivity.this,MainActivity.class);
+                Intent mainintent = new Intent(BuildActivity.this,MainActivity.class);
                 startActivity(mainintent);
-//                IntroActivity.this.finish();
+                BuildActivity.this.finish();
             }
         });
 

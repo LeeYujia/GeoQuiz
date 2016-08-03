@@ -23,10 +23,11 @@
             android:layout_gravity="center_horizontal">
 
             <ImageView
-                android:layout_width="120dp"
-                android:layout_height="160dp"
+                android:layout_width="176dp"
+                android:layout_height="130dp"
                 android:id="@+id/imageView"
-                android:layout_gravity="center_horizontal"/>
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/chairmanphoto" />
 
             <TextView
                 android:layout_width="match_parent"
