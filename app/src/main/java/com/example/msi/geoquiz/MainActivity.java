@@ -25,11 +25,14 @@ public class MainActivity extends Activity {
             public void onClick(View view) {
                 Intent introintent = new Intent(MainActivity.this,IntroActivity.class);
                 startActivity(introintent);
+                MainActivity.this.finish();
             }
         });
         service.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
-
+                Intent servintent = new Intent(MainActivity.this,ServiActicity.class);
+                startActivity(servintent);
+                MainActivity.this.finish();
             }
         });
         build.setOnClickListener(new View.OnClickListener() {
