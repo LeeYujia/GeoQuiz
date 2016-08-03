@@ -8,6 +8,6 @@ public class IntroActivity extends Activity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.introduction);
         //abcde
-        //11111111111111111111111
+        //11111111111111111
     }
 }
