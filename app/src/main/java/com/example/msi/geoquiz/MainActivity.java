@@ -1,12 +1,13 @@
 package com.example.msi.geoquiz;
 
+import android.app.Activity;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends Activity {
     private Button intro;
     private Button service;
     private Button build;
@@ -20,6 +21,21 @@ public class MainActivity extends AppCompatActivity {
         build =(Button)findViewById(R.id.build);
         advant =(Button)findViewById(R.id.advant);
         intro.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View view) {
+
+            }
+        });
+        service.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View view) {
+
+            }
+        });
+        build.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View view) {
+
+            }
+        });
+        advant.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
 
             }
